@@ -1,0 +1,21 @@
+body{
+    background-color: #ec8585;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(yellow, white);
+    margin: 200px auto;
+    border-radius: 50px;
+}
+.container h1{
+    padding: 30px 100px;
+    color: rgb(122, 8, 221);
+}
+.list{
+    padding-left: 80px;
+}
+ul li{
+    padding: 5px;
+    color:rgb(34, 6, 105);
+}

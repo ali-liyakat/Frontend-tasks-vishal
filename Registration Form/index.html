@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="top">User Registration form</h1>
+        <form>
+            <input type="text" id="name" placeholder="Name" class="value"><br><br>
+            <input type="email" id="email" placeholder="Email" class="value"><br><br>
+            <input type="password" id="Password" placeholder="Password" class="value"><br><br>
+            <input type="password" id="confirm password" placeholder="Confirm password" class="value"><br><br>
+            <input type="date" id="dob" placeholder="Date of Birth" class="value"><br><br>
+            <label for="gender" class="elem">Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other <br> 
+            <label for="interests" class="elem">Interests:</label>
+            <input type="checkbox" name="interests">Music
+            <input type="checkbox" name="interests">Sports
+            <input type="checkbox" name="interests">Reading <br>
+            <button type="reset" class="btn">Reset</button>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

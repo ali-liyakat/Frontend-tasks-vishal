@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(231, 128, 211);
+}
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(137, 173, 94);
+    margin: 200px auto 0;
+    border-radius: 50%;
+}
+div h1{
+    padding-top: 100px;
+    padding-left: 90px;
+    color: rgb(42, 29, 219);
+}
+.list{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+ol li{
+    word-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    padding: 4px;
+}

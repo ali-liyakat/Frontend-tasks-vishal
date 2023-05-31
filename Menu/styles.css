@@ -1,0 +1,33 @@
+body{
+    background-color: #747668;
+}
+.top{
+    margin-top: 80px;
+    margin-left: 46%;
+    background-color: #f07b58;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    margin-left: 42%;
+    background-image: radial-gradient(rgb(29, 140, 162),rgb(123, 159, 147));
+    border-radius: 15px;
+    padding:10px;
+}
+.list{
+    padding-left: 60px;
+}
+li h1{
+    color: rgb(21, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+ul li{
+    color:rgb(12, 9, 165);
+    word-spacing: 3px;
+    padding: 3px;
+}
